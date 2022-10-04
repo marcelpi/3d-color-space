@@ -1,6 +1,6 @@
 3d Color Space editor using React Three Fiber and Next.js
 
-DEMO: https://innerspace.app/color-space
+[CHECK DEMO HERE](https://ylwsi0.sse.codesandbox.io/)
 
 Define your space by editing the lattice points. Everything in between is then linearly interpolated based on them. Click on spheres and edit them from the 'Edit Points' section of the panel.
 
