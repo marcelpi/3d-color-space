@@ -2,13 +2,13 @@
 
 [CHECK DEMO HERE](https://ylwsi0.sse.codesandbox.io/)
 
-Define your space by editing the lattice points. Everything in between is then linearly interpolated based on them. Click on spheres and edit them from the 'Edit Points' section of the panel.
+Define your space by editing the lattice points. Everything in between is then linearly interpolated based on them. Click the spheres and edit them from the 'Edit Points' section of the panel.
 
 If you want to see the color of a particular point turn on 'visible' in the Interpolation section of the panel and use the sliders to move to point around.
 
-If you instead with to see the whole 3d space turn on'visible' in the Fill Space section. Play around with the sliders to slice the space on various axes.
+If you instead want to see the whole 3d space turn on 'visible' in the Fill Space section. Play around with the sliders to slice it on various axes.
 
-Lastly use the 'load/save color space' section to log your space or save it to a JSON file for further use.
+Lastly, use the 'load/save color space' section to log your created space or save it to a JSON file for further use.
 
 ---
 
