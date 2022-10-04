@@ -1,0 +1,27 @@
+{
+  "name": "3d-color-space",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.32.11",
+    "@react-three/fiber": "^8.8.9",
+    "color": "^4.2.3",
+    "downloadjs": "^1.4.7",
+    "leva": "^0.9.31",
+    "next": "12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0",
+    "three": "^0.145.0"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
+  }
+}

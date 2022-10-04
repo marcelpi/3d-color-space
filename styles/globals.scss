@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'TTNormsPro', Helvetica Neue, sans-serif;
+    font-variation-settings: 'slnt' 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    color: #1f6fca;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+hr {
+    width: 100%;
+    border: none;
+}
+
+input,
+button {
+    margin: 5px 0;
+    border-radius: 6px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: #f6f7f7;
+    box-shadow: none;
+    border: none;
+    font-family: inherit;
+}
+
+input {
+    font-size: 16px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='email'] {
+    width: 100%;
+    height: 50px;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: #232323;
+    color: white;
+    letter-spacing: 0.25em;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .error-message,
+    .warning-message {
+        font-size: 14px;
+        margin: 5px 10px;
+        text-align: left;
+        width: 100%;
+        font-size: 13px;
+        animation: fadeIn 0.75s ease;
+    }
+
+    .error-message {
+        color: #e20000;
+    }
+
+    .warning-message {
+        color: #00a200;
+    }
+}
+
+label {
+    margin-left: 7px;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+
+    .logo-color {
+        fill: #000000;
+    }
+}
+
+.authentication-page {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 50px;
+    height: inherit;
+    padding: 30px 0;
+
+    button {
+        margin: 40px auto 0;
+        padding: 10px 30px;
+        display: block;
+    }
+
+    .auth-area {
+        padding-bottom: 50px;
+    }
+
+    .links {
+        margin: 50px 0 0;
+
+        a {
+            margin: 10px;
+        }
+    }
+
+    .gender {
+        display: inline-block;
+        margin: 20px 0 10px;
+    }
+}
+
+.login-page {
+    grid-template-rows: minmax(70px, 20%) 0.65fr;
+}
+
+.forgot-password-page {
+    .auth-area {
+        margin-top: 50px;
+    }
+}
+
+// leva reset
+#leva__root {
+    input,
+    button {
+        padding: 6px;
+        margin: 0;
+        letter-spacing: normal;
+        text-transform: none;
+    }
+}
+
+/*------------- Utility Classes -------------*/
+
+.text-center {
+    text-align: center !important;
+}
+
+/*------------- Animations -------------*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 4841162
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTNormsProVariable by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/variable/
+ * Copyright: Copyright (c) 2016-2021 by TypeType. All rights reserved.
+ * 
+*/
